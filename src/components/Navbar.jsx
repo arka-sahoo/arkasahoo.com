@@ -37,6 +37,18 @@ export const Navbar = () => {
             Projects
           </Link>
         </li>
+        <li>
+          <Link
+            to="/Contact"
+            className={
+              location.pathname === "/Contact"
+                ? "text-bold text-yellow-300"
+                : ""
+            }
+            >
+            Contact
+          </Link>
+          </li>
       </ul>
     </nav>
   );
