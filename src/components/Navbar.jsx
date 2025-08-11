@@ -4,12 +4,12 @@ export const Navbar = () => {
   const location = useLocation();
   return (
     <nav>
-      <ul className="flex-col justify-between items-center p-4 bg-gray-800 text-white">
+      <ul className="flex flex-row space-x-8 justify-center items-center p-4 bg-green-800 text-white">
         <li>
           <Link
             to="/"
             className={
-              location.pathname === "/" ? "text-bold text-yellow-300" : ""
+              location.pathname === "/" ? "font-bold text-yellow-300" : ""
             }
           >
             Home
@@ -19,7 +19,7 @@ export const Navbar = () => {
           <Link
             to="/about"
             className={
-              location.pathname === "/about" ? "text-bold text-yellow-300" : ""
+              location.pathname === "/about" ? "font-bold text-yellow-300" : ""
             }
           >
             About
@@ -30,7 +30,7 @@ export const Navbar = () => {
             to="/projects"
             className={
               location.pathname === "/projects"
-                ? "text-bold text-yellow-300"
+                ? "font-bold text-yellow-300"
                 : ""
             }
           >
@@ -39,16 +39,16 @@ export const Navbar = () => {
         </li>
         <li>
           <Link
-            to="/Contact"
+            to="/contact"
             className={
-              location.pathname === "/Contact"
-                ? "text-bold text-yellow-300"
+              location.pathname === "/contact"
+                ? "font-bold text-yellow-300"
                 : ""
             }
-            >
+          >
             Contact
           </Link>
-          </li>
+        </li>
       </ul>
     </nav>
   );
