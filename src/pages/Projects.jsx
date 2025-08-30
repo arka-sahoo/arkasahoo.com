@@ -1,6 +1,6 @@
 export const Projects = () => {
   return (
-    <div className="bg-pink-200 p-8 min-h-screen">
+    <div className="bg-green-300 p-8 min-h-screen">
       <h1 className="text-3xl font-bold text-blue-700 mb-4">My Projects</h1>
       <p className="text-gray-700 mb-6">These are some of the projects that I have worked on</p>
       <div className="space-y-4">
