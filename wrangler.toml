@@ -1,0 +1,3 @@
+name = "personal-website"
+main = "dist/_worker.js"
+compatibility_date = "2025-08-30"
